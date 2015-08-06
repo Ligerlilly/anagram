@@ -1,0 +1,11 @@
+<h3>results</h3>
+<div>
+   <p>
+     <%= @word %> has these anagrams:
+  </p>
+  <ul>
+    <% @anagram_array.each do |word| %>
+    <li><%= word %></li>
+    <% end %>
+  </ul>
+</div>
